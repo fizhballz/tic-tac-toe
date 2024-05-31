@@ -1,0 +1,24 @@
+1. import libraries
+2. variable for storing 'x' & 'o'
+3. check winner [winning conditions] 
+4. check draw [ if no winner when all items on board filled]
+5. variable for width and height of screen, background - white
+6. grid and colour - black
+7. board array
+8. pygame init
+9. if no winner, print whose turn
+10. blitting of image and setting perimeter for clicking. 
+11. once click, blit image to center of sqaure and change value of array board to 1 or 2. change message to display whose turn and change the sym
+
+flow of process: mouse click > check position > blit image to pos > check win > message update 
+
+
+       c o l u m n
+
+     0/0 | 1 | 2   
+ r    ---|---|---
+ o    1  |   |  
+ w    ---|---|---
+      2  |   |  
+ 
+
